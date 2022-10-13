@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	font-family: Raleway;
+	background-color:#fbfbfb;
+	font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #418bca;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3674a9;
+    text-decoration: none;
+}
+
+h1 {
+	font-size:28px;
+	font-weight:normal;
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+	color:#1a1a1a;
+    text-transform : uppercase;
+}
+
+h2 {
+	font-size:18px;
+	font-weight:normal;
+    padding: 0px;
+	margin: 0px;
+	color:#34495e;
+    text-transform : uppercase;
+}
+
+h3 {
+	font-size:14px;
+	font-weight:normal;
+    padding: 0px;
+	margin: 0px;
+	color:#2d3f52;
+}
+
+h4 {
+	font-size:14px;
+	font-weight:normal;
+    padding: 0px;
+	margin: 0px;
+	color:#2d3f52;
+}
+
+a.twitter {color: #7ac9ed;opacity: 0.5;}
+a.twitter:hover {color: #7ac9ed;opacity: 1;}
+
+a.github {color: silver;opacity: 0.5;}
+a.github:hover {color: gray;opacity: 1;}
+
+.card-footer {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    color: var(--bs-card-cap-color);
+    background-color: white;
+    border-top: solid 0px white;
+}
+
+.kbd-on {
+    padding: 0.1rem 0.4rem;
+    font-size: .7em;
+    color: #fff;
+    background-color: #34495e;
+    border-radius: 0.2rem;
+    font-family: var(--bs-font-monospace);
+}
+
+.kbd-off {
+    padding: 0.1rem 0.4rem;
+    font-size: .7em;
+    color: #fff;
+    background-color: #95a5a6;
+    border-radius: 0.2rem;
+    font-family: var(--bs-font-monospace);
+}
+
+.kbd-on:hover, .kbd-off:hover {
+    color: #fff;
+    background-color: #34495e;
+}
+
+
+.doc {
+    color:white
+}
+
+.doc:hover {
+    color:silver
+}
+
+
+
+
+/* ****************************************************************************
+ INTRO
+**************************************************************************** */
+
+#intro {
+	background-color:#f1f3f4;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+#intro .apps-logos {
+	text-align:center;
+	padding:5px 0px 10px 0px;
+}
+
+#intro .apps-logos img {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	opacity:0.3;
+	padding:0px 10px 0px 10px;
+}
+
+#intro .apps-logos img:hover {
+	-webkit-filter: none;
+	filter: none;
+	opacity:1;
+}
+
+/* INTRO ******************************************************************* */
+
+/* xs button */
+.btn-group-xs>.btn, .btn-xs {
+    padding: .4rem .5rem;
+    font-size: 0.7rem;
+    line-height: 1.2;
+    border-radius: .3rem;
+	margin-right: 0rem;
+}
+
+.btn-creer {
+    --bs-btn-color: #6c757d;
+    --bs-btn-bg: #e9ecef;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #6c757d;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.btn-link {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: silver;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: gray;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-color: var(--bs-link-hover-color);
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-border-color: transparent;
+    --bs-btn-box-shadow: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    text-decoration: none;
+}
+
+/* download button */
+.btn-download {
+    color: #6c757d;
+    background-color: #f1f3f4;
+    background-image: none;
+    border-color: #f1f3f4;
+}
+
+.btn-download:hover {
+    color: #1a1a1a;
+    background-color: #e4e6e7;
+    border-color: #e4e6e7;
+}
+
+.btn-download:not(:disabled):not(.disabled).active, .btn-download:not(:disabled):not(.disabled):active, .show>.btn-download.dropdown-toggle {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+/* doc button */
+.btn-doc {
+    color: #6c757d;
+    background-color: #f1f3f4;
+    background-image: none;
+    border-color: #f1f3f4;
+    text-align:left;
+    width:100%;
+}
+
+.btn-doc:hover {
+    color: #1a1a1a;
+    background-color: #e4e6e7;
+    border-color: #e4e6e7;
+}
+
+.btn-doc:not(:disabled):not(.disabled).active, .btn-doc:not(:disabled):not(.disabled):active, .show>.btn-doc.dropdown-toggle {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+
+#footer {
+	background-color:#f1f3f4;
+	margin-top:30px;
+	font-size:90%;
+}
