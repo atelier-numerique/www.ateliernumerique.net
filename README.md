@@ -1,1 +1,1 @@
-# www.ateliernumerique.net
+![Atelier Numérique](https://www.ateliernumerique.net/img/ateliernumerique.svg)
