@@ -170,7 +170,6 @@
 		<div class="row mb-3">
 			<div class="col-md-8 offset-md-2 mb-4">
 
-
 				<?php
 				$collapse = "";
 				if (session('message')) {
@@ -332,7 +331,6 @@
 			</div>
 		</div>
 
-
 		<div class="row justify-content-center">
 			<div class="col-md-5">
 				<div class="ratio ratio-16x9">
@@ -343,7 +341,6 @@
 				<div class="font-monospace text-center" style="font-size:70%;color:silver">exemple avec une vidéo et scratch</a>
 			</div>
 		</div>
-
 
 		<div class="row mt-2">
 			<div class="col-md-10 offset-md-1">
@@ -548,7 +545,6 @@
 
 			</div>
 		</div>
-
 
 		<div class="row mt-5">
 			<div class="col text-center font-monospace text-muted">
