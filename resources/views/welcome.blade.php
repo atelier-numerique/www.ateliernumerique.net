@@ -96,9 +96,9 @@
                         <ul>
                             <li>Type: {{ strtoupper($atelier['gauche_type']) }}</li>
                             <li>
-								Données
-								<div class="p-3 font-monospace small text-muted text-break" style="border-radius:4px;background-color:#fbfbfb">{{ $atelier['gauche_input'] }}</div>
-							</li>
+				Données
+				<div class="p-3 font-monospace small text-muted text-break" style="border-radius:4px;background-color:#fbfbfb">{{ $atelier['gauche_input'] }}</div>
+			    </li>
                         </ul>
                         <div class="text-danger font-monospace small lh-1">Partie droite</div>
                         <ul>
