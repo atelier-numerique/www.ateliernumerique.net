@@ -229,7 +229,11 @@
 
 		<div class="row mt-5">
 			<div class="col text-center font-monospace text-muted">
+				<?php
+				/*
 				<div class="small" style="color:silver;opacity:0.6">code sous <a href="https://www.gnu.org/licenses/gpl-3.0.fr.html" target="_blank">GPLv3</a> et contenu sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a></div>
+				*/
+				?>
 				<p class="mt-1"><a href="https://twitter.com/laurentabbal" class="me-3" target="_blank"><i class="fab fa-twitter fa-lg"></i></a><a href="https://github.com/atelier-numerique/www.ateliernumerique.net" class="mr-3" target="_blank"><i class="fab fa-github-alt fa-lg"></i></a></p>
 			</div>
 		</div>

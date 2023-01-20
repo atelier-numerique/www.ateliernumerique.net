@@ -84,7 +84,7 @@ $p85 = "Algorithmes gloutons.";
 	<div class="container mt-4">
 		<div class="row">
 			<div class="col-md-2">
-			<a class="btn btn-light btn-sm" href="/console" role="button"><i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+			<a class="btn btn-light btn-sm" href="/" role="button"><i class="fas fa-arrow-left" aria-hidden="true"></i></a>
 
 			</div>
 			<div class="col-md-8 text-center">
