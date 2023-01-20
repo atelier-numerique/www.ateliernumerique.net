@@ -100,6 +100,29 @@ a.github:hover {color: gray;opacity: 1;}
 }
 
 
+/* BOUTON LIGHT */
+.btn-light {
+    color: #34495e;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+.btn-light:hover {
+    color: #2c3e50;
+    background-color: #dae0e5;
+    border-color: #dae0e5;
+}
+
+.btn-light:focus {
+    color: #2c3e50;
+    background-color: #dae0e5;
+    border-color: #dae0e5;
+    /*box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);*/
+    box-shadow: none;
+}
+/* /BOUTON LIGHT */
+
+
 
 
 /* ****************************************************************************
@@ -224,3 +247,50 @@ a.github:hover {color: gray;opacity: 1;}
 	margin-top:30px;
 	font-size:90%;
 }
+
+
+.badge { padding:3px 6px 1px 6px;border-radius:2px;}
+.item { color:white;display:block;white-space:nowrap;padding:0px 6px 0px 6px;border-radius:2px;font-size:90%; }
+
+.i11 { background-color:#89b0ae; }
+
+.i21 { background-color:#55a630; }
+.i22 { background-color:#80b918; }
+.i23 { background-color:#aacc00; }
+.i24 { background-color:#bfd200; }
+.i25 { background-color:#d4d700; }
+
+.i31 { background-color:#2c7da0; }
+.i32 { background-color:#468faf; }
+.i33 { background-color:#61a5c2; }
+.i34 { background-color:#89c2d9; }
+
+.i41 { background-color:#ffc300; }
+.i42 { background-color:#ffd000; }
+.i43 { background-color:#ffdd00; }
+.i44 { background-color:#ffe84f; }
+
+.i51 { background-color:#6f42c1; }
+.i52 { background-color:#8c68cd; }
+.i53 { background-color:#a98eda; }
+.i54 { background-color:#c5b3e6; }
+.i55 { background-color:#d7cee8; }
+
+.i61 { background-color:#d00000; }
+.i62 { background-color:#dc2f02; }
+.i63 { background-color:#e85d04; }
+.i64 { background-color:#f48c06; }
+.i65 { background-color:#faa307; }
+
+.i71 { background-color:#343a40; }
+.i72 { background-color:#495057; }
+.i73 { background-color:#6c757d; }
+.i74 { background-color:#adb5bd; }
+.i75 { background-color:#ced4da; }
+
+.i81 { background-color:#ad466c; }
+.i82 { background-color:#cc607d; }
+.i83 { background-color:#e38191; }
+.i84 { background-color:#f4a3a8; }
+.i85 { background-color:#ffc6c4; }
+

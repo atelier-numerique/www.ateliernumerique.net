@@ -129,7 +129,7 @@
 							@endif
 							@if(trim($atelier['consignes']) !== "")
 							<div class="mt-2 p-3" style="background-color:white;border:solid 1px silver;border-radius:4px">
-								{{ trim($atelier['consignes']) }}
+								{!! trim($atelier['consignes']) !!}
 							</div>
 							@endif
                 		</div>
