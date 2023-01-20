@@ -90,6 +90,7 @@ $p85 = "Algorithmes gloutons.";
 			<div class="col-md-8 text-center">
 				<h1><img src="{{ asset('img/ateliernumerique.svg') }}" width="400" alt="ATELIER NUMERIQUE" /></h1>
                 <div class="mt-4 col-md-12 text-center font-monospace">PROJET ARLÉATOIRE</div>
+                <div class="col-md-12 text-center font-monospace small text-muted">Python + Pillow + Random</div>
 
 				<span class="badge i31 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p31 ?>">3.1</span>
 				<span class="badge i32 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p32 ?>">3.2</span>
@@ -98,7 +99,7 @@ $p85 = "Algorithmes gloutons.";
 				<span class="badge i74 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p74 ?>">7.4</span>
 				<span class="badge i75 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p75 ?>">7.5</span>
 
-                <div class="mt-1 col-md-12 text-center font-monospace text-muted small">Première NSI du Lycée Français International de Tokyo</div>
+                <div class="mt-1 col-md-12 text-center font-monospace small" style="color:silver;">Première NSI du Lycée Français International de Tokyo</div>
 			</div>
 		</div>
 	</div>
