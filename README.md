@@ -7,4 +7,5 @@ Il suffit de partager un lien avec les élèves pour qu'ils puissent accéder di
 Exemple :
 * [Déplacer un lutin avec les touches du clavier (méthode 1)](https://www.ateliernumerique.net/4WMPL6) 
 * Lien à partager : **ateliernumerique.net/4WMPL6**
- 
+
+♻️ Sync GH-GL : 
