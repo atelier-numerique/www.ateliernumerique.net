@@ -25,5 +25,5 @@ Route::get('/{jeton}', function($jeton) {
 
 // organisation examens
 Route::get('/organisation-examens', function () {return view('organisation-examens-get');})->name('organisation-examens-get');
-
+ 
 
