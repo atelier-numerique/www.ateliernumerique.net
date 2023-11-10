@@ -21,7 +21,7 @@ Route::post('/modifier', [SiteController::class, 'modifier_atelier_post'])->name
 
 Route::get('/{jeton}', function($jeton) {
     return view("atelier", ["jeton"=>$jeton]);
-})->name('atelier'); 
+})->name('atelier');
 
 // organisation examens
 Route::get('/organisation-examens', function () {return view('organisation-examens-get');})->name('organisation-examens-get');
