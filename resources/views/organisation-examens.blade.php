@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
  
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+	<link rel="shortcut icon" href="{{ asset('img/oe-favicon.png') }}">
 
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -25,7 +25,7 @@
 
 		<div class="row font-monospace mt-2 mb-4">
 			<div class="col-md-8 offset-md-2">
-				<div class="titre text-danger">{<span style="vertical-align:-3px">&#10057;</span><span style="vertical-align:-4px">&#10303;</span>}</div>
+				<div class="text-center mt-3 mb-4"><img src="{{ asset('img/oe-logo.png') }}" width="100" /></div>
 				<h1>Optimisation des créneaux d'examens en fonction de la répartition des matières des élèves<br />& création automatique des listes</h1>
 				<div class="text-muted mt-1" style="font-size:90%;text-align:justify;">
 					Exemple: minimiser le nombre de créneaux et optimiser la répartition des élèves pour un bac blanc de spécialités en Terminale. Le système utilise le principe de la <a href="https://fr.wikipedia.org/wiki/Coloration_de_graphe" target="_blank">coloration des graphes</a>. Le code Python est hébergé sur la <a href="https://forge.apps.education.fr/laurent.abbal/organisation-examens" target="_blank">forge du ministère de l'Éducation Nationale</a>.

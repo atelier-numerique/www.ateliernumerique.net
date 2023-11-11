@@ -18,16 +18,6 @@ a:hover {
     text-decoration: none;
 }
 
-#examens .titre {
-	font-size:36px;
-	font-weight:bold;
-	text-align:center;
-	padding: 0px;
-	margin: 0px;
-	color:#1a1a1a;
-    text-transform: uppercase;
-}
-
 #examens h1 {
 	font-size:16px;
 	font-weight:bold;

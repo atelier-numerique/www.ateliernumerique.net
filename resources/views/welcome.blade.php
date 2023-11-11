@@ -157,6 +157,17 @@
 						</div>
 					</div>						
 
+                    <div class="col">
+						<div class="card h-100">
+							<div class="card-body font-monospace pb-2">
+								<h4><img src="https://www.ateliernumerique.net/img/oe-favicon.png" width="18" class="me-2" />Organisation examens</h4>
+							</div>
+							<div class="card-footer text-center">
+					          	<a class="btn btn-download btn-sm" href="https://www.ateliernumerique.net/organisation-examens" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
+					        </div>
+						</div>
+					</div>	
+
 					<div class="col">
 						<div class="card h-100">
 							<div class="card-body font-monospace pb-1">
