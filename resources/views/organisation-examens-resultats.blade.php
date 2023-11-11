@@ -35,10 +35,10 @@ if (Session::has('data')) {
 	<link rel="shortcut icon" href="{{ asset('img/oe-favicon.png') }}">
 
 	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	
 	<!-- Font Awesome -->
-	<script src="https://kit.fontawesome.com/cbfbfc2c41.js" crossorigin="anonymous"></script>
+	<link href="{{ asset('lib/fontawesome/css/all.css') }}" rel="stylesheet">
 	
 	<!-- custom.css -->
 	<link href="css/custom.css" rel="stylesheet">
@@ -88,8 +88,7 @@ if (Session::has('data')) {
 	</div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="{{ asset('js/bootstrap.bundle.min.js') }}" ></script>
 <script>     
 const code = `
 # on importe les bibliotheques
