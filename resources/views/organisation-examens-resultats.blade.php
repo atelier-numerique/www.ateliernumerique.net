@@ -12,7 +12,7 @@ if (Session::has('url')) {
 		echo 'adresse incorrecte';
 		exit();
 	}
-	$boutons = '<a class="btn btn-light btn-sm me-2" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a><a class="btn btn-light btn-sm" href="/organisation-examens-resultats" role="button">charger le fichier</a>';
+	$boutons = '<a class="btn btn-light btn-sm me-2" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a><a class="btn btn-light btn-sm" href="/organisation-examens-resultats" role="button">recharger le fichier</a>';
 }
 if (Session::has('data')) {
 	try {
@@ -27,8 +27,12 @@ if (Session::has('data')) {
 <!doctype html>
 <html>
 <head>
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
 
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">

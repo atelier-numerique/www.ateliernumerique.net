@@ -21,7 +21,7 @@ Route::post('/modifier', [SiteController::class, 'modifier_atelier_post'])->name
 
 
 // organisation examens
-Route::get('/organisation-examens', function () {return view('organisation-examens');})->name('organisation-examens-get');
+Route::get('/organisation-examens', [SiteController::class, 'organisation_examens_get'])->name('organisation-examens-get');
 Route::post('/organisation-examens', [SiteController::class, 'organisation_examens_post'])->name('organisation-examens-post');
 Route::any('/organisation-examens-resultats', function () {return view('organisation-examens-resultats');})->name('organisation-examens-resultats');
 
