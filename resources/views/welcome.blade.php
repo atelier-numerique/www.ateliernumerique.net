@@ -9,14 +9,10 @@
 	<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
 
 	<!-- Font Awesome -->
-	<script src="https://kit.fontawesome.com/cc5dff2db9.js" crossorigin="anonymous"></script>
-
-	<!-- Fonts -->
-	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="{{ asset('lib/fontawesome/css/all.min.css') }}" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
 	<!-- custom.css -->
 	<link href="{{ asset('css/custom.css') }}" rel="stylesheet">
@@ -93,8 +89,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><img src="https://www.mon-oral.net/img/favicon.png" width="20" class="me-2" />mon-oral.net</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.mon-oral.net/img/favicon.png" width="20" class="mb-1" /><br />mon-oral.net</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.mon-oral.net" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -104,8 +100,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><img src="https://www.nuitducode.net/img/favicon.svg" width="20" class="me-2" />Nuit du c0de</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.nuitducode.net/img/favicon.svg" width="20" class="mb-1" /><br />Nuit du c0de</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.nuitducode.net" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -115,8 +111,8 @@
 				
                     <div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-2">
-								<h4><img src="https://www.pyxelstudio.net/img/favicon.png" width="18" class="me-2" />Pyxel Studio</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.pyxelstudio.net/img/favicon.png" width="18" class="mb-1" /><br />Pyxel Studio</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.pyxelstudio.net" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -126,8 +122,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-2">
-								<h4><img src="https://www.codepuzzle.io/img/favicon.png" width="18" class="me-2" />Code Puzzle</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.codepuzzle.io/img/favicon.png" width="18" class="mb-1" /><br />Code Puzzle</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.codepuzzle.io" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -137,8 +133,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><img src="https://www.edupyter.net/images/favicon.png" width="18" class="me-2" />Edupyter</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.edupyter.net/images/favicon.png" width="18" class="mb-1" /><br />Edupyter</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.edupyter.net/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -148,8 +144,8 @@
 					
                     <div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-2">
-								<h4><img src="https://www.cahiernum.net/img/favicon.png" width="18" class="me-2" />Cahier Numérique</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.cahiernum.net/img/favicon.png" width="18" class="mb-1" /><br />Cahier Numérique</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.cahiernum.net" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -159,8 +155,8 @@
 
                     <div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-2">
-								<h4><img src="https://www.ateliernumerique.net/img/oe-favicon.png" width="18" class="me-2" />Organisation examens</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.ateliernumerique.net/img/oe-favicon.png" width="18" class="mb-1" /><br />Organisation d'examens</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.ateliernumerique.net/organisation-examens" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -170,8 +166,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><img src="https://www.txtpuzzle.net/img/favicon.png" width="18" class="me-2" />Texte Puzzle</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.txtpuzzle.net/img/favicon.png" width="18" class="mb-1" /><br />Texte Puzzle</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.txtpuzzle.net/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -181,8 +177,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><img src="https://www.dozo.app/img/favicon.png" width="18" class="me-2" />DOZO</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><img src="https://www.dozo.app/img/favicon.png" width="18" class="mb-1" /><br />DOZO</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://www.dozo.app/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -192,8 +188,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><i class="fas fa-cash-register me-2 text-primary"></i>Machine de Turing</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><i class="fas fa-cash-register mb-1 text-primary"></i><br />Machine de Turing</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://mdt.codekodo.net/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -203,8 +199,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><i class="fas fa-unlock me-2 text-danger"></i>Chiffrement RSA</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><i class="fas fa-unlock mb-1 text-danger"></i><br />Chiffrement RSA</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://rsa.codekodo.net/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -214,8 +210,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><i class="fas fa-key me-2 text-success"></i>Clés RSA</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><i class="fas fa-key mb-1 text-success"></i><br />Clés RSA</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://rsa-cles.codekodo.net/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
@@ -225,8 +221,8 @@
 
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-body font-monospace pb-1">
-								<h4><i class="fas fa-search me-2 text-info"></i>Boyer-Moore</h4>
+							<div class="card-body font-monospace pb-0">
+								<h4 class="text-center"><i class="fas fa-search mb-1 text-info"></i><br />Boyer-Moore</h4>
 							</div>
 							<div class="card-footer text-center">
 					          	<a class="btn btn-download btn-sm" href="https://boyer-moore.codekodo.net/" role="button" target="_blank"><i class="fas fa-paper-plane"></i></a>
