@@ -3,7 +3,6 @@ html {
 }
 
 body {
-	font-family: Raleway;
 	background-color:#fbfbfb;
 	font-size: 0.9rem;
     line-height: 1.6;
@@ -19,8 +18,38 @@ a:hover {
     text-decoration: none;
 }
 
+#examens .titre {
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+	color:#1a1a1a;
+    text-transform: uppercase;
+}
+
+#examens h1 {
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+	color:#1a1a1a;
+    text-transform: uppercase;
+}
+
+#examens h2 {
+	font-size:14px;
+	font-weight:bold;
+    padding: 0px;
+	margin: 0px;
+	color:#1a1a1a;
+    text-transform: uppercase;
+}
+
+
 h1 {
-	font-size:28px;
+	font-size:36px;
 	font-weight:normal;
 	text-align:center;
 	padding: 0px;
@@ -53,6 +82,20 @@ h4 {
 	margin: 0px;
 	color:#2d3f52;
 }
+
+/* BOUTON LIGHT */
+.btn-light {
+    color: #34495e;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+.btn-light:hover {
+    color: #2c3e50;
+    background-color: #dae0e5;
+    border-color: #dae0e5;
+}
+/* /BOUTON LIGHT */
 
 a.twitter {color: #7ac9ed;opacity: 0.5;}
 a.twitter:hover {color: #7ac9ed;opacity: 1;}
