@@ -79,7 +79,7 @@ if (Session::has('data')) {
 		<div id="resultats" class="row">
 			<div class="col-md-6 offset-md-3">
 				<div id="loading" class="mb-3 text-center font-monospace mt-5" style="color:silver;font-size:70%;">
-					<img src="{{ asset('img/loading.gif') }}" width="80" />
+					<i class="fa-solid fa-circle-notch fa-spin fa-6x mb-2"></i>
 					<br />
 					traitement<br />des données<br />~ 10/20s ~
 				</div>
