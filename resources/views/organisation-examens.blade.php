@@ -34,7 +34,6 @@
 			</div>
 		</div>
 	
-	
 		<div class="row">
 			<div class="col-md-7 mb-5">
 				<h2>Mode d'emploi</h2>
