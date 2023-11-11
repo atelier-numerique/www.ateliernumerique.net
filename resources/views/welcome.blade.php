@@ -26,19 +26,19 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Outils Numériques pour les élèves et les enseignants" />
 	<meta property="og:url" content="https://www.ateliernumerique.net/" />
-	<meta property="og:image" content="https://www.ateliernumerique.net/img/opengraph_1200x630.png" />
-	<meta property="og:image:alt" content="mon-oral.net" />
+	<meta property="og:image" content="https://www.ateliernumerique.net/img/opengraph.png" />
+	<meta property="og:image:alt" content="L'Atelier Numérique" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@laurentabbal">
-	<meta name="twitter:creator" content="@laurentabbal">
+	<meta name="twitter:site" content="@lateliernum">
+	<meta name="twitter:creator" content="@lateliernum">
 	<meta name="twitter:title" content="L'Atelier Numérique">
 	<meta name="twitter:description" content="Outils Numériques pour les élèves et les enseignants">
-	<meta name="twitter:image" content="https://www.ateliernumerique.net/img/opengraph_1200x630.png">
+	<meta name="twitter:image" content="https://www.ateliernumerique.net/img/opengraph.png">
 	
 	<!-- Matomo -->
 	<script>

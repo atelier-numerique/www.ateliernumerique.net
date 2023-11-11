@@ -17,6 +17,41 @@
 	<!-- custom.css -->
 	<link href="css/custom.css" rel="stylesheet">
 
+	<!-- Open Graph -->
+	<meta property="og:title" content="Organisation d'examens" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Optimisation des créneaux d'examens en fonction de la répartition des matières des élèves & création automatique des listes" />
+	<meta property="og:url" content="https://www.ateliernumerique.net/organisation-examens/" />
+	<meta property="og:image" content="https://www.ateliernumerique.net/img/oe-opengraph.png" />
+	<meta property="og:image:alt" content="L'Atelier Numérique" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@lateliernum">
+	<meta name="twitter:creator" content="@lateliernum">
+	<meta name="twitter:title" content="Organisation d'examens">
+	<meta name="twitter:description" content="Optimisation des créneaux d'examens en fonction de la répartition des matières des élèves & création automatique des listes">
+	<meta name="twitter:image" content="https://www.ateliernumerique.net/img/oe-opengraph.png">	
+
+	<!-- Matomo -->
+	<script>
+	  var _paq = window._paq = window._paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		var u="//www.awame.net/matomo/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '11']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Matomo Code -->	
+
 	<title>Organisation examens</title>
 </head>
 <body>
