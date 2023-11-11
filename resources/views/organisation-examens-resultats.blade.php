@@ -21,7 +21,7 @@ if (Session::has('data')) {
 		echo 'données incorrectes';
 		exit();
 	}
-	$boutons = '<a class="btn btn-light btn-sm me-2" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a><a class="btn btn-light btn-sm" href="/organisation-examens" role="button">charger de nouvelles données</a>';
+	$boutons = '<a class="btn btn-light btn-xs me-2" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a><a class="btn btn-light btn-xs" href="/organisation-examens" role="button">charger de nouvelles données</a>';
 }
 ?>
 <!doctype html>
