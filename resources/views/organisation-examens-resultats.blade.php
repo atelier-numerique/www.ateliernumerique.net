@@ -79,7 +79,7 @@ if (Session::has('data')) {
 					<br />
 					traitement<br />des données
 				</div>
-				<div id="nb_creneaux" class="mb-2 font-monospace"></div>
+				<div id="nb_creneaux" class="mb-2 font-monospace ps-1"></div>
 				<div id="graphe" class="mb-3 rounded p-3 bg-white border border-light-subtle" style="display:none"></div>
 				<div id="liste1" class="mb-3" style="display:none"><div class="fw-bold text-danger font-monospace">Créneaux et matières</div></div>
 				<div id="liste2" class="mb-5" style="display:none"><div class="fw-bold text-danger font-monospace">Créneaux et matières et élèves</div></div>
