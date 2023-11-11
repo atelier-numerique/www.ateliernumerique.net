@@ -3,6 +3,7 @@ if (!Session::has('url') AND !Session::has('data')) {
 	echo 'adresse incorrecte';
 	exit();
 }
+$bouton_1 = '<a class="btn btn-light btn-xs" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a>';
 if (Session::has('url')) {
 	try {
 		$url = Crypt::decryptString(Session::get('url'));
@@ -12,7 +13,7 @@ if (Session::has('url')) {
 		echo 'adresse incorrecte';
 		exit();
 	}
-	$boutons = '<a class="btn btn-light btn-xs me-2" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a><a class="btn btn-light btn-xs" href="/organisation-examens-resultats" role="button">recharger le fichier</a>';
+	$bouton_2 = '<a class="btn btn-light btn-xs" href="/organisation-examens-resultats" role="button">recharger le fichier</a>';
 }
 if (Session::has('data')) {
 	try {
@@ -21,8 +22,9 @@ if (Session::has('data')) {
 		echo 'données incorrectes';
 		exit();
 	}
-	$boutons = '<a class="btn btn-light btn-xs me-2" href="/organisation-examens" role="button"><i class="fas fa-arrow-left"></i></a><a class="btn btn-light btn-xs" href="/organisation-examens" role="button">charger de nouvelles données</a>';
+	$bouton_2 = '<a class="btn btn-light btn-xs" href="/organisation-examens" role="button">charger de nouvelles données</a>';
 }
+
 ?>
 <!doctype html>
 <html>
@@ -38,7 +40,7 @@ if (Session::has('data')) {
 	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	
 	<!-- Font Awesome -->
-	<link href="{{ asset('lib/fontawesome/css/all.css') }}" rel="stylesheet">
+	<link href="{{ asset('lib/fontawesome/css/all.min.css') }}" rel="stylesheet">
 	
 	<!-- custom.css -->
 	<link href="css/custom.css" rel="stylesheet">
@@ -65,19 +67,21 @@ if (Session::has('data')) {
 
 	<div id="examens" class="container">
 
-		<div class="row font-monospace mt-2 mb-4">
-			<div class="col-md-8 offset-md-2 text-center">
-				<div class="text-center mt-3 mb-4"><img src="{{ asset('img/oe-logo.png') }}" width="100" /></div>
-				<div id="boutons" class="mt-5 mb-3" style="display:none;">{!! $boutons !!}</div>
-			</div>
-		</div>
+		<div class="text-center mt-3 mb-5"><a href="/organisation-examens"><img src="{{ asset('img/oe-logo.png') }}" width="100" /></a></div>
+
+		<div id="boutons" class="mt-4 mb-5" style="display:none;">
+			<div  class="row font-monospace">
+				<div class="col-md-2">{!! $bouton_1 !!}</div>
+				<div class="col-md-8 text-center">{!! $bouton_2 !!}</div>
+			</div>		
+		</div>		
 
 		<div id="resultats" class="row">
 			<div class="col-md-6 offset-md-3">
 				<div id="loading" class="mb-3 text-center font-monospace mt-5" style="color:silver;font-size:70%;">
 					<img src="{{ asset('img/loading.gif') }}" width="80" />
 					<br />
-					traitement<br />des données
+					traitement<br />des données<br />~ 10/20s ~
 				</div>
 				<div id="nb_creneaux" class="mb-2 font-monospace ps-1"></div>
 				<div id="graphe" class="mb-3 rounded p-3 bg-white border border-light-subtle" style="display:none"></div>
@@ -148,7 +152,7 @@ js.document.getElementById("nb_creneaux").appendChild(div);
 # graphe et couleurs
 couleurs = ["#2a9d8f","#a1c65d","#fac723","#f29222","#e95e50","#936fac"]
 couleurs_noeuds = [couleurs[coloration[node]] for node in G]
-image_graph = nx.draw(G, node_color=couleurs_noeuds, with_labels=True,  font_size=7, pos=nx.kamada_kawai_layout(G), font_weight='bold', node_size=1000, node_shape="o", font_color="black", edgecolors='#3A3F58', edge_color='#3A3F58', width=2, linewidths=2)
+image_graph = nx.draw(G, node_color=couleurs_noeuds, with_labels=True,  font_size=6, pos=nx.kamada_kawai_layout(G), font_weight='bold', node_size=1000, node_shape="o", font_color="black", edgecolors='#3A3F58', edge_color='#3A3F58', width=2, linewidths=2)
 #plt.savefig("graphe.png")
 image_stream = BytesIO()
 plt.savefig(image_stream, format='png')
