@@ -79,7 +79,7 @@ eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 								<td style="vertical-align:top;"><button type="submit" class="btn btn-dark btn-sm"><i class="far fa-paper-plane"></i></button></td>
 							</tr>
 						</table>
-						<div class="font-monospace ms-1 fst-italic" style="color:silver;font-size:80%;">Exemple: https://www.ateliernumerique.net/data/data_exemple.csv</div>
+						<div class="font-monospace mt-1 ms-1 fst-italic" style="color:silver;font-size:70%;">Exemple: https://www.ateliernumerique.net/data/csv_exemple.csv</div>
 					</div>
 				</form>
 
