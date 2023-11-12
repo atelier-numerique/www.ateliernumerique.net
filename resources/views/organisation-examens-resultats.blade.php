@@ -66,7 +66,7 @@ if (Session::has('data')) {
 <body>
 
 	<div id="examens" class="container">
-
+ 
 		<div class="text-center mt-4 mb-5"><a href="/organisation-examens"><img src="{{ asset('img/oe-logo.png') }}" width="100" /></a></div>
 
 		<div id="boutons" class="mt-4 mb-5" style="display:none;">
