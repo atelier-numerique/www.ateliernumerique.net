@@ -62,7 +62,7 @@
 
 		<div class="row font-monospace mt-2 mb-4">
 			<div class="col-md-8 offset-md-2">
-				<h1>Optimisation des créneaux d'examens en fonction de la répartition des matières des élèves<br />& création automatique des listes</h1>
+				<h1>Optimisation des créneaux d'examens en fonction de la répartition des matières des élèves & création automatique des listes</h1>
 				<div class="text-muted mt-1" style="font-size:90%;text-align:justify;">
 					Exemple: minimiser le nombre de créneaux et optimiser la répartition des élèves pour un bac blanc de spécialités en Terminale. Le système utilise le principe de la <a href="https://fr.wikipedia.org/wiki/Coloration_de_graphe" target="_blank">coloration des graphes</a>. Le code Python est hébergé sur la <a href="https://forge.apps.education.fr/laurent.abbal/organisation-examens" target="_blank">forge du ministère de l'Éducation Nationale</a>.
 				</div>
@@ -72,8 +72,12 @@
 		<div class="row">
 			<div class="col-md-7 mb-5">
 				<h2>Mode d'emploi</h2>
+				<h3>Formatage des données</h3>
 				<div style="text-align:justify">
-					Pour obtenir automatiquement les créneaux et les listes, il suffit de fournir la liste des élèves et de leurs matières. Les données doivent être au format CSV sur quatre colonnes et les en-têtes des colonnes doivent être nommés ainsi: 'nom', 'classe', 'matiere_1' et 'matiere_2'.
+					Pour obtenir automatiquement les créneaux et les listes, il suffit de fournir la liste des élèves et de leurs matières. Les données doivent être sur quatre colonnes et les en-têtes des colonnes doivent être nommés ainsi: 'nom', 'classe', 'matiere_1' et 'matiere_2'.
+				</div>
+				<div style="text-align:justify">
+					Si les données sont dans un tableur, ce tableaur doit être exporté au format CSV. Il peut alors être ouvert avec un éditeur de texte.
 					<br />
 					Exemple:
 				</div>
@@ -82,16 +86,16 @@ eleve01,TA,SC. ECONO.& SOCIALES,MATHEMATIQUES
 eleve02,TA,MATHEMATIQUES,NUMERIQUE SC.INFORM.
 eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 ...</pre>
-				<div style="text-align:justify">Si les données sont dans un tableur, ce tableaur doit être exporté au format CSV. Il peut alors être ouvert avec un éditeur de texte.</div>
-				<div>Deux possibilités pour fournir les données:</div>
+				
+				<h3 class="mt-3">Tableurs en ligne</h3>
+				<div style="text-align:justify">Il est possible d'utiliser des tableurs en ligne comme <a href="https://framacalc.org" target="_blank">Framacalc</a>, <a href="https://ethercalc.net" target="_blank">Ethercalc</a> ou <a href="https://doc.new/" target="_blank">Google Sheets</a>. Cette solution est la plus souple car la convertion en CSV est automatique. De plus, elle permet de faire des modifications et de relancer l'analyse des données en un clic ("recharger le fichier").</div>
+				<h3 class="mt-3">Données</h3>
+				<div>Deux possibilités donc pour fournir les données:</div>
 				<ul class="mb-1">
-					<li>indiquer le lien vers le fichier CSV si celui-ci est hébergé sur internet (site, forge, dépôt...)</li>
+					<li>indiquer l'adresse du tableur en ligne (copier-coller l'adresse qui est dans la barre d'adresse) ou le lien vers le fichier CSV si celui-ci est hébergé sur internet (site, forge, dépôt...)</li>
 					<li>copier-coller les données au format CSV</li>
 				</ul>
-				<div>Les liens vers des fichiers Google Sheets partagés sont aussi acceptés.</div>
-				<div class="text-break">Format:&nbsp;<span class="font-monospace small">https://docs.google.com/spreadsheets/d/1sgMPeFv5mZZbmJGLOgMnZhq_QGx90MFI4CZw7Wc/edit#gid=4135555</span></div>
-
-				<h2 class="mt-3">Remarques</h2>
+				<h3 class="mt-3">Remarques</h3>
 				<ul class="mb-1" style="text-align:justify">
 					<li>Le système fournit une optimisation du nombre de créneaux en fonction des données. Il ne propose pas automatiquement un découpage des matières (création de plusieurs sujets) pour réduire le nombre de créneaux. Ce travail doit être fait à la main. Cependant, cela se fait facilement en étudiant le graphe obtenu et les liens d'incompatibilité entre les matières. Si une matière présente de nombreuses incompatibilités avec d'autres matières, il est possible de donner deux noms à la matière afin de simuler la création de deux sujets ('mathématiques1' et 'mathématiques2' par exemple). En répartissant ces deux noms en fonction des liens d'incompatibilité, le nombre de créneaux peut être réduit.</li>
 					<li >Si vous ne souhaitez pas utiliser ce site parce que vous préférez travailler en local, vous pouvez récupérer le programme Python (fichier Python ou format <i>notebook</i>) qui est hébergé sur la <a href="https://forge.apps.education.fr/laurent.abbal/organisation-examens" target="_blank">forge du ministère de l'Éducation Nationale</a>.</li>
@@ -105,7 +109,7 @@ eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 					@csrf
 					<input type="hidden" name="type" value="url" />
 					<div class="mb-1">
-						<div class="fw-bold ms-1">Liens vers le fichier CSV</div>
+						<div class="fw-bold ms-1">Liens le tableur en ligne ou le fichier CSV</div>
 						<div class="font-monospace ms-1" style="color:silver;font-size:80%;">Aucune donnée n'est concervée sur le serveur</div>
 						<table>
 							<tr>
@@ -118,7 +122,7 @@ eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 								<td style="vertical-align:top;"><button type="submit" class="btn btn-dark btn-sm"><i class="far fa-paper-plane"></i></button></td>
 							</tr>
 						</table>
-						<div class="font-monospace mt-1 ms-1 fst-italic" style="color:silver;font-size:70%;">Exemple: https://www.ateliernumerique.net/data/csv_exemple.csv</div>
+						<div class="font-monospace mt-1 ms-1 fst-italic" style="color:silver;font-size:70%;">Exemple de fichier CSV: https://www.ateliernumerique.net/data/csv_exemple.csv</div>
 					</div>
 				</form>
 

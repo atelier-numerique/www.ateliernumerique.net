@@ -5,7 +5,7 @@ html {
 body {
 	background-color:#fbfbfb;
 	font-size: 0.9rem;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 a {
@@ -19,7 +19,7 @@ a:hover {
 }
 
 #examens h1 {
-	font-size:16px;
+	font-size:18px;
 	font-weight:bold;
 	text-align:center;
 	padding: 0px;
@@ -29,11 +29,20 @@ a:hover {
 }
 
 #examens h2 {
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
     padding: 0px;
 	margin: 0px;
 	color:#1a1a1a;
+    text-transform: uppercase;
+}
+
+#examens h3 {
+	font-size:13px;
+	font-weight:bold;
+    padding: 0px;
+	margin-top: 8px;
+	color:#dc3545;
     text-transform: uppercase;
 }
 
