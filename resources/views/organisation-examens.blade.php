@@ -58,11 +58,12 @@
 	
 	<div id="examens" class="container">
 
-		<div class="text-center mt-3 mb-5"><a href="/organisation-examens"><img src="{{ asset('img/oe-logo.png') }}" width="100" /></a></div>
+		<div class="text-center mt-4"><a href="/organisation-examens"><img src="{{ asset('img/oe-logo.png') }}" width="100" /></a></div>
 
-		<div class="row font-monospace mt-2 mb-4">
-			<div class="col-md-8 offset-md-2">
-				<h1>Optimisation des créneaux d'examens en fonction de la répartition des matières des élèves & création automatique des listes</h1>
+		<div class="row font-monospace mt-3 mb-5">
+			<div class="col-md-10 offset-md-1">
+				<h1>Organisation d'examens</h1>
+				<div class="fw-bold text-center mt-1" style="font-size:90%;text-align:justify;">Optimisation des créneaux en fonction de la répartition des matières des élèves & création automatique des listes</div>
 				<div class="text-muted mt-1" style="font-size:90%;text-align:justify;">
 					Exemple: minimiser le nombre de créneaux et optimiser la répartition des élèves pour un bac blanc de spécialités en Terminale. Le système utilise le principe de la <a href="https://fr.wikipedia.org/wiki/Coloration_de_graphe" target="_blank">coloration des graphes</a>. Le code Python est hébergé sur la <a href="https://forge.apps.education.fr/laurent.abbal/organisation-examens" target="_blank">forge du ministère de l'Éducation Nationale</a>.
 				</div>
