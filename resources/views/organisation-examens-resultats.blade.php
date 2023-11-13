@@ -83,6 +83,8 @@ if (Session::has('data')) {
 					<br />
 					traitement<br />des données<br />~ 10/20s ~
 				</div>
+				<div id="matieres_eleves" class="mb-2 font-monospace ps-1"></div>
+				<div id="combinaisons_eleves" class="mb-2 font-monospace ps-1"></div>
 				<div id="nb_creneaux" class="mb-2 font-monospace ps-1"></div>
 				<div id="graphe" class="mb-3 rounded p-3 bg-white border border-light-subtle" style="display:none"></div>
 				<div id="liste1" class="mb-3" style="display:none"><div class="fw-bold text-danger font-monospace">Créneaux et matières</div></div>
@@ -104,6 +106,54 @@ from io import BytesIO
 import base64
 
 eleves = pd.read_csv("csv_file.csv")
+
+# on calcule le nombre d'eleves par matiere
+matieres = eleves["matiere_1"].tolist() + eleves["matiere_2"].tolist()
+matieres_eleves = {}
+for matiere in matieres:
+    if matiere in matieres_eleves:
+        matieres_eleves[matiere] += 1
+    else:
+        matieres_eleves[matiere] = 1
+
+# on calcules le nombre d'eleves par combinaison de matieres
+combinaisons_matieres = [tuple(sorted([m1, m2])) for m1, m2 in zip(eleves["matiere_1"], eleves["matiere_2"])]
+combinaisons_eleves = {}
+for combinaison in combinaisons_matieres:
+    if combinaison in combinaisons_eleves:
+        combinaisons_eleves[combinaison] += 1
+    else:
+        combinaisons_eleves[combinaison] = 1
+
+# on trie les resultats
+matieres_eleves = sorted(matieres_eleves.items(), key=lambda item: item[1], reverse=True)
+combinaisons_eleves = sorted(combinaisons_eleves.items(), key=lambda item: item[1], reverse=True)
+
+# on affiche les informations pour les matieres
+table_matieres = js.document.createElement('table');
+table_matieres.classList.add('table', 'table-bordered', 'table-sm');
+n = 0
+for matiere_eleves in matieres_eleves:
+	row = table_matieres.insertRow(n)
+	cell = row.insertCell(0)
+	cell.textContent = matiere_eleves[0]
+	cell = row.insertCell(1)
+	cell.textContent = matiere_eleves[1]
+	n += 1
+js.document.getElementById("matieres_eleves").appendChild(table_matieres);
+
+# on affiche les informations pour les combinaisons
+table_combinaisons = js.document.createElement('table');
+table_combinaisons.classList.add('table', 'table-bordered', 'table-sm');
+n = 0
+for combinaison_eleves in combinaisons_eleves:
+	row = table_combinaisons.insertRow(n)
+	cell = row.insertCell(0)
+	cell.textContent = combinaison_eleves[0][0] + ' - ' + combinaison_eleves[0][1]
+	cell = row.insertCell(1)
+	cell.textContent = combinaison_eleves[1]
+	n += 1
+js.document.getElementById("combinaisons_eleves").appendChild(table_combinaisons);
 
 # on cree le graphe et la liste des eleves
 graphe = {}
