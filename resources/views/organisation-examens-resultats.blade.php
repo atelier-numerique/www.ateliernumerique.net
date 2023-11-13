@@ -136,6 +136,7 @@ n = 0
 for matiere_eleves in matieres_eleves:
 	row = table_matieres.insertRow(n)
 	cell = row.insertCell(0)
+	cell.style.width = '100%'
 	cell.textContent = matiere_eleves[0]
 	cell = row.insertCell(1)
 	cell.textContent = matiere_eleves[1]
@@ -149,6 +150,7 @@ n = 0
 for combinaison_eleves in combinaisons_eleves:
 	row = table_combinaisons.insertRow(n)
 	cell = row.insertCell(0)
+	cell.style.width = '100%'
 	cell.textContent = combinaison_eleves[0][0] + ' - ' + combinaison_eleves[0][1]
 	cell = row.insertCell(1)
 	cell.textContent = combinaison_eleves[1]
@@ -227,6 +229,7 @@ for creneau in creneaux:
 	row = table_1.insertRow(n)
 	row.classList.add('fw-bold', 'text-primary');
 	cell = row.insertCell(0)
+	cell.style.width = '100%'
 	cell.textContent = 'CRÉNEAU ' + str(creneau + 1)
 	cell = row.insertCell(1)
 	cell.textContent = str(len(eleves_creneau))
