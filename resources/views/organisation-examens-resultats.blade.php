@@ -83,8 +83,10 @@ if (Session::has('data')) {
 					<br />
 					traitement<br />des données<br />~ 10/20s ~
 				</div>
+				<div id="donnees" class="mb-1 ms-1" style="display:none"><div class="fw-bold text-danger font-monospace">DONNÉES</div></div>
 				<div id="matieres_eleves" class="mb-2 font-monospace ps-1"></div>
 				<div id="combinaisons_eleves" class="mb-2 font-monospace ps-1"></div>
+				<div id="creneaux" class="pt-3 mb-1 ms-1" style="display:none"><div class="fw-bold text-danger font-monospace">CRÉNEAUX</div></div>
 				<div id="nb_creneaux" class="mb-2 font-monospace ps-1"></div>
 				<div id="graphe" class="mb-3 rounded p-3 bg-white border border-light-subtle" style="display:none"></div>
 				<div id="liste1" class="mb-3" style="display:none"><div class="fw-bold text-danger font-monospace">Créneaux et matières</div></div>
@@ -141,6 +143,7 @@ for matiere_eleves in matieres_eleves:
 	cell = row.insertCell(1)
 	cell.textContent = matiere_eleves[1]
 	n += 1
+js.document.getElementById("donnees").style.display = 'block';
 js.document.getElementById("matieres_eleves").appendChild(table_matieres);
 
 # on affiche les informations pour les combinaisons
@@ -198,6 +201,7 @@ div = js.document.createElement("div");
 div.innerHTML = "Nombre minimum de créneaux: <span class='coef_chromatique'>" + str(coef_chromatique) + "</span>";
 js.document.getElementById("loading").style.display = 'none';
 js.document.getElementById("boutons").style.display = 'block';
+js.document.getElementById("creneaux").style.display = 'block';
 js.document.getElementById("nb_creneaux").style.display = 'block';
 js.document.getElementById("nb_creneaux").appendChild(div);
 
