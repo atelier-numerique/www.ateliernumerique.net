@@ -113,7 +113,7 @@ eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 					<input type="hidden" name="type" value="url" />
 					<div class="mb-1">
 						<div class="fw-bold ms-1">Liens vers le tableur en ligne ou le fichier CSV</div>
-						<div class="font-monospace ms-1" style="color:silver;font-size:80%;">Aucune donnée n'est concervée sur le serveur</div>
+						<div class="font-monospace ms-1" style="color:silver;font-size:80%;">Aucune donnée n'est conservée sur le serveur</div>
 						<table>
 							<tr>
 								<td style="vertical-align:top;width:100%;padding-right:10px;">
@@ -134,7 +134,7 @@ eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 					<input type="hidden" name="type" value="data" />
 					<div class="mb-1">
 						<div class="fw-bold ms-1">Copier-coller les données au format CSV</div>
-						<div class="font-monospace ms-1" style="color:silver;font-size:80%;">Aucune donnée n'est concervée sur le serveur</div>
+						<div class="font-monospace ms-1" style="color:silver;font-size:80%;">Aucune donnée n'est conservée sur le serveur</div>
 						<table>
 							<tr>
 								<td style="vertical-align:top;width:100%;padding-right:10px;">
