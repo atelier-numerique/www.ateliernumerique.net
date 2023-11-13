@@ -140,7 +140,7 @@ for strategie in strategies:
     if strategie_coef_chromatique < coef_chromatique:
         coloration = strategie_coloration
         coef_chromatique = strategie_coef_chromatique
-		
+
 # nombre minimum de créneaux
 div = js.document.createElement("div");
 div.innerHTML = "Nombre minimum de créneaux: <span class='coef_chromatique'>" + str(coef_chromatique) + "</span>";

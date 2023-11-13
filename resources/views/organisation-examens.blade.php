@@ -91,7 +91,7 @@ eleve03,TA,PHYSIQUE-CHIMIE,NUMERIQUE SC.INFORM.
 ...</pre>
 				
 				<h3 class="mt-3">Tableurs en ligne</h3>
-				<div style="text-align:justify">Il est possible d'utiliser des tableurs en ligne comme <a href="https://framacalc.org" target="_blank">Framacalc</a>, <a href="https://ethercalc.net" target="_blank">Ethercalc</a> ou <a href="https://doc.new/" target="_blank">Google Sheets</a>. Cette solution est la plus souple car la convertion en CSV est automatique. De plus, elle permet de faire des modifications et de relancer l'analyse des données en un clic ("recharger le fichier").</div>
+				<div style="text-align:justify">Il est possible d'utiliser des tableurs en ligne comme <a href="https://framacalc.org" target="_blank">Framacalc</a>, <a href="https://ethercalc.net" target="_blank">Ethercalc</a> ou <a href="https://doc.new/" target="_blank">Google Sheets</a>. Cette solution est la plus souple car la conversion en CSV est automatique. De plus, elle permet de faire des modifications et de relancer l'analyse des données en un clic ("recharger le fichier").</div>
 				<h3 class="mt-3">Données</h3>
 				<div>Deux possibilités donc pour fournir les données:</div>
 				<ul class="mb-1">
