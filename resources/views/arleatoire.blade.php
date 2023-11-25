@@ -89,7 +89,7 @@ $p85 = "Algorithmes gloutons.";
 			</div>
 			<div class="col-md-8 text-center">
 				<h1><img src="{{ asset('img/ateliernumerique.svg') }}" width="400" alt="ATELIER NUMERIQUE" /></h1>
-                <div class="mt-4 col-md-12 text-center font-monospace">PROJET ARLÉATOIRE</div>
+                <div class="mt-4 col-md-12 text-center font-monospace">PROJET ART-LÉATOIRE</div>
                 <div class="col-md-12 text-center font-monospace small text-muted">Python + Pillow + Random</div>
 
 				<span class="badge i31 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p31 ?>">3.1</span>
@@ -108,7 +108,7 @@ $p85 = "Algorithmes gloutons.";
 		
 		<div class="row mb-5">
 
-			<div class="row row-cols-1 row-cols-md-5 g-4">
+			<div class="row row-cols-1 row-cols-md-3 g-4">
 				@php
 					$gifs = glob(public_path()."/projet-arleatoire/*.gif");
 					shuffle($gifs);
