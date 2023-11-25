@@ -75,7 +75,7 @@ $p85 = "Algorithmes gloutons.";
 
     <script src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
 	
-	<title>L'Atelier Numérique | Projet Arléatoire</title>
+	<title>L'Atelier Numérique | Projet Art-léatoire</title>
 
 </head>
 
