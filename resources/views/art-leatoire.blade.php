@@ -92,12 +92,14 @@ $p85 = "Algorithmes gloutons.";
                 <div class="mt-4 col-md-12 text-center font-monospace">PROJET ART-LÉATOIRE</div>
                 <div class="col-md-12 text-center font-monospace small text-muted">Python + Pillow + Random</div>
 
+				<span class="badge i24 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p31 ?>">2.4</span>
 				<span class="badge i31 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p31 ?>">3.1</span>
 				<span class="badge i32 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p32 ?>">3.2</span>
 				<span class="badge i33 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p33 ?>">3.3</span>
 				<span class="badge i71 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p71 ?>">7.1</span>
 				<span class="badge i74 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p74 ?>">7.4</span>
 				<span class="badge i75 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p75 ?>">7.5</span>
+				<span class="badge i81 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p81 ?>">7.5</span>
 
                 <div class="mt-1 col-md-12 text-center font-monospace small" style="color:silver;">Première NSI du Lycée Français International de Tokyo</div>
 			</div>

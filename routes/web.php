@@ -5,7 +5,7 @@ use App\Http\Controllers\SiteController;
 
 
 Route::get('/', function () {return view('welcome');})->name('welcome');
-Route::get('/arleatoire', function () {return view('arleatoire');})->name('arleatoire');
+Route::get('/art-leatoire', function () {return view('art-leatoire');})->name('art-leatoire');
 
 // presentation nsi
 Route::any('/nsi', function(){return redirect('https://lfitokyo-nsi.github.io/presentation-nsi/');});
