@@ -1,4 +1,0 @@
-Ouvrir CMD et :
-gifsicle --batch --scale 0.5 --optimize=3 *.gif
-
-
