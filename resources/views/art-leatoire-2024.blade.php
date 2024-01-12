@@ -111,7 +111,7 @@ $p85 = "Algorithmes gloutons.";
 		
 		<div class="row mb-5">
 
-			<div class="row row-cols-1 row-cols-md-4 g-4">
+			<div class="row row-cols-1 row-cols-md-6 g-4">
 				@php
 					$gifs = glob(public_path()."/projet-artleatoire-2024/*.gif");
 					shuffle($gifs);
