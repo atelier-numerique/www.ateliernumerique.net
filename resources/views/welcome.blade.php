@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 	<!-- Required meta tags -->
@@ -186,6 +186,7 @@
 						</div>
 					</div>
 
+					<!--
 					<div class="col">
 						<div class="card h-100">
 							<div class="card-body font-monospace pb-0">
@@ -196,6 +197,7 @@
 					        </div>
 						</div>
 					</div>
+					-->
 
 					<div class="col">
 						<div class="card h-100">

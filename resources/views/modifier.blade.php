@@ -1,3 +1,5 @@
+<?php
+/*
 <!doctype html>
 <html lang="fr">
 <head>
@@ -317,3 +319,4 @@
 
 </body>
 </html>
+*/?>
