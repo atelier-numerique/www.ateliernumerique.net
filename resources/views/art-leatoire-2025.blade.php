@@ -91,7 +91,7 @@ $p85 = "Algorithmes gloutons.";
 			</div>
 			<div class="col-md-8 text-center">
 				<h1><img src="{{ asset('img/ateliernumerique.svg') }}" width="400" alt="ATELIER NUMERIQUE" /></h1>
-                <div class="mt-4 col-md-12 text-center font-monospace">PROJET ART-LÉATOIRE 2023-2024</div>
+                <div class="mt-4 col-md-12 text-center font-monospace">PROJET ART-LÉATOIRE 2024-2025</div>
                 <div class="col-md-12 text-center font-monospace small text-muted">Python + Pillow + Random</div>
 
 				<span class="badge i24 font-monospace" style="cursor:pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $p24 ?>">2.4</span>

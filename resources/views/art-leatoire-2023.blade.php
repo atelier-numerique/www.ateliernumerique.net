@@ -87,6 +87,7 @@ $p85 = "Algorithmes gloutons.";
 				<a class="btn btn-light btn-sm" href="/" role="button"><i class="fas fa-arrow-left" aria-hidden="true"></i></a>
 				<a class="mt-2 btn btn-light btn-sm font-monospace" href="/art-leatoire-2023" role="button" style="display:block;width:100px;--bs-btn-padding-y:.2rem;--bs-btn-padding-x:.6rem;--bs-btn-font-size:.7rem;">édition 2023</a>
 				<a class="mt-1 btn btn-light btn-sm font-monospace" href="/art-leatoire-2024" role="button" style="display:block;width:100px;--bs-btn-padding-y:.2rem;--bs-btn-padding-x:.6rem;--bs-btn-font-size:.7rem;">édition 2024</a>
+				<a class="mt-1 btn btn-light btn-sm font-monospace" href="/art-leatoire-2025" role="button" style="display:block;width:100px;--bs-btn-padding-y:.2rem;--bs-btn-padding-x:.6rem;--bs-btn-font-size:.7rem;">édition 2025</a>
 			</div>
 			<div class="col-md-8 text-center">
 				<h1><img src="{{ asset('img/ateliernumerique.svg') }}" width="400" alt="ATELIER NUMERIQUE" /></h1>
