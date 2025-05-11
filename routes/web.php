@@ -8,6 +8,7 @@ Route::get('/', function () {return view('welcome');})->name('welcome');
 Route::get('/arleatoire', function () {return view('art-leatoire');})->name('art-leatoire');
 Route::get('/art-leatoire-2023', function () {return view('art-leatoire-2023');})->name('art-leatoire-2023');
 Route::get('/art-leatoire-2024', function () {return view('art-leatoire-2024');})->name('art-leatoire-2024');
+Route::get('/art-leatoire-2025', function () {return view('art-leatoire-2025');})->name('art-leatoire-2025');
 
 // presentation nsi
 Route::any('/nsi', function(){return redirect('https://lfitokyo-nsi.github.io/presentation-nsi/');});
