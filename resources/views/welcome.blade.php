@@ -72,10 +72,10 @@
 			<div class="col-md-12 text-center font-monospace text-muted">
 				Projets bricodés par <a tabindex="0" class="" style="color:#c83737" role="button" data-bs-container="body" data-bs-trigger="click" data-bs-html="true" data-bs-sanitize="false" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="
 				<ul class='fa-ul font-monospace small m-0 ms-4'>
-					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-twitter'></i></span><a href='https://twitter.com/laurentabbal' target='_blank'>@laurentabbal</a></li>
+					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-square-x-twitter'></i></span><a href='https://x.com/laurentabbal' target='_blank'>@laurentabbal</a></li>
 					<li><span class='fa-li pe-3'style='color:#c83737'><i class='fa-brands fa-mastodon'></i></span><a href='https://mastodon.social/@laurentabbal' target='_blank'>@laurentabbal@mastodon.social</a></li>
 					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-github-alt'></i></span><a href='https://github.com/laurentabbal' target='_blank'>www.github.com/laurentabbal</a></li>
-					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-gitlab'></i></span><a href='https://forge.aeif.fr/laurentabbal' target='_blank'>forge.aeif.fr/laurentabbal</a></li>
+					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-gitlab'></i></span><a href='https://laurentabbal.forge.apps.education.fr/' target='_blank'>forge.aeif.fr/laurentabbal</a></li>
 				</ul>
 				"><i class="fas fa-user-astronaut"></i></a>
 				
@@ -243,7 +243,7 @@
 				<div class="small" style="color:silver;opacity:0.6">code sous <a href="https://www.gnu.org/licenses/gpl-3.0.fr.html" target="_blank">GPLv3</a> et contenu sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a></div>
 				*/
 				?>
-				<p class="mt-1"><a href="https://twitter.com/laurentabbal" class="me-3" target="_blank"><i class="fab fa-twitter fa-lg"></i></a><a href="https://github.com/atelier-numerique/www.ateliernumerique.net" class="mr-3" target="_blank"><i class="fab fa-github-alt fa-lg"></i></a></p>
+				<p class="mt-1"><a href="https://x.com/laurentabbal" class="me-3" target="_blank"><i class='fa-brands fa-square-x-twitter'></i></a><a href="https://github.com/atelier-numerique/www.ateliernumerique.net" class="mr-3" target="_blank"><i class="fab fa-github-alt fa-lg"></i></a></p>
 			</div>
 		</div>
 
