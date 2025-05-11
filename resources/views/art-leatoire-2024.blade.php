@@ -118,7 +118,7 @@ $p85 = "Algorithmes gloutons.";
 				@foreach ($gifs as $gif)
 				<div class="col">
 					<div class="card h-100">
-						<img src="{{ asset('projet-artleatoire-2024/'.basename($gif)) }}" class="card-img-top" alt="...">
+						<a href="/art-leatoire/2024/{{basename($gif)}}"><img src="{{ asset('projet-artleatoire-2024/'.basename($gif)) }}" class="card-img-top" alt="..."></a>
 						<div class="card-body p-1 ps-2">
 							<p class="card-text font-monospace small text-muted">{{ basename($gif, ".gif") }}</p>
 						</div>
