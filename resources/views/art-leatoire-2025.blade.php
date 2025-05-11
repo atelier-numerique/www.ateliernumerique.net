@@ -72,8 +72,6 @@ $p85 = "Algorithmes gloutons.";
 	<meta name="twitter:title" content="L'Atelier Numérique">
 	<meta name="twitter:description" content="Outils Numériques pour les élèves et les enseignants">
 	<meta name="twitter:image" content="https://www.ateliernumerique.net/img/opengraph_1200x630.png">
-
-    <script src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
 	
 	<title>L'Atelier Numérique | Projet Art-léatoire 2024-2025</title>
 
@@ -120,7 +118,7 @@ $p85 = "Algorithmes gloutons.";
 				@foreach ($gifs as $gif)
 				<div class="col">
 					<div class="card h-100">
-						<img src="{{ asset('projet-artleatoire-2025/'.basename($gif)) }}" class="card-img-top" alt="...">
+						<a href="/art-leatoire/2025/{{basename($gif)}}"><img src="{{ asset('projet-artleatoire-2025/'.basename($gif)) }}" class="card-img-top" alt="..."></a>
 						<div class="card-body p-1 ps-2">
 							<p class="card-text font-monospace small text-muted">{{ basename($gif, ".gif") }}</p>
 						</div>

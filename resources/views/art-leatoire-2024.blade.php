@@ -72,8 +72,6 @@ $p85 = "Algorithmes gloutons.";
 	<meta name="twitter:title" content="L'Atelier Numérique">
 	<meta name="twitter:description" content="Outils Numériques pour les élèves et les enseignants">
 	<meta name="twitter:image" content="https://www.ateliernumerique.net/img/opengraph_1200x630.png">
-
-    <script src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
 	
 	<title>L'Atelier Numérique | Projet Art-léatoire 2023-2024</title>
 

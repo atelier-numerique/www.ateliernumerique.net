@@ -39,16 +39,23 @@
 	<meta name="twitter:title" content="L'Atelier Numérique">
 	<meta name="twitter:description" content="Outils Numériques pour les élèves et les enseignants">
 	<meta name="twitter:image" content="https://www.ateliernumerique.net/img/opengraph_1200x630.png">
-
-    <script src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
 	
 	<title>L'Atelier Numérique | Projet Art-léatoire GIF</title>
-
+	
 </head>
 
 <body>
 
-	<img src="{{ asset('projet-artleatoire-'.$annee.'/'.$gif) }}" class="card-img-top" alt="...">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 pt-5">
+				<a class="btn btn-light btn-sm" href="/art-leatoire-{{$annee}}" role="button"><i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+			</div>
+			<div class="col-md-10 text-center vh-100 p-5">
+				<img src="{{ asset('projet-artleatoire-'.$annee.'/'.$gif) }}" class="img-fluid rounded h-100" style="object-fit: contain;"  alt="...">
+			</div>
+		</div>
+	</div>	
 
 </body>
 </html>
