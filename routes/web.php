@@ -5,7 +5,8 @@ use App\Http\Controllers\SiteController;
 
 
 Route::get('/', function () {return view('welcome');})->name('welcome');
-Route::get('/arleatoire', function () {return view('art-leatoire');})->name('art-leatoire');
+//Route::get('/arleatoire', function () {return view('art-leatoire');})->name('art-leatoire');
+Route::get('/art-leatoire/{annee}/{gif}', function($annee, $gif) {return view("art-leatoire-gif", ["annee" => $annee, "gif"=>$gif]);})->name('art-leatoire-gif');
 Route::get('/art-leatoire-2023', function () {return view('art-leatoire-2023');})->name('art-leatoire-2023');
 Route::get('/art-leatoire-2024', function () {return view('art-leatoire-2024');})->name('art-leatoire-2024');
 Route::get('/art-leatoire-2025', function () {return view('art-leatoire-2025');})->name('art-leatoire-2025');
