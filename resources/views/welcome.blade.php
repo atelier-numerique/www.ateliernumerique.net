@@ -75,7 +75,7 @@
 					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-square-x-twitter'></i></span><a href='https://x.com/laurentabbal' target='_blank'>@laurentabbal</a></li>
 					<li><span class='fa-li pe-3'style='color:#c83737'><i class='fa-brands fa-mastodon'></i></span><a href='https://mastodon.social/@laurentabbal' target='_blank'>@laurentabbal@mastodon.social</a></li>
 					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-github-alt'></i></span><a href='https://github.com/laurentabbal' target='_blank'>www.github.com/laurentabbal</a></li>
-					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-gitlab'></i></span><a href='https://laurentabbal.forge.apps.education.fr/' target='_blank'>forge.aeif.fr/laurentabbal</a></li>
+					<li><span class='fa-li pe-3' style='color:#c83737'><i class='fa-brands fa-gitlab'></i></span><a href='https://laurentabbal.forge.apps.education.fr/' target='_blank'>laurentabbal.forge.apps.education.fr</a></li>
 				</ul>
 				"><i class="fas fa-user-astronaut"></i></a>
 				
