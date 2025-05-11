@@ -114,13 +114,13 @@ $p85 = "Algorithmes gloutons.";
 
 			<div class="row row-cols-1 row-cols-md-6 g-4">
 				@php
-					$gifs = glob(public_path()."/projet-artleatoire-2024/*.gif");
+					$gifs = glob(public_path()."/projet-artleatoire-2025/*.gif");
 					shuffle($gifs);
 				@endphp
 				@foreach ($gifs as $gif)
 				<div class="col">
 					<div class="card h-100">
-						<img src="{{ asset('projet-artleatoire-2024/'.basename($gif)) }}" class="card-img-top" alt="...">
+						<img src="{{ asset('projet-artleatoire-2025/'.basename($gif)) }}" class="card-img-top" alt="...">
 						<div class="card-body p-1 ps-2">
 							<p class="card-text font-monospace small text-muted">{{ basename($gif, ".gif") }}</p>
 						</div>
