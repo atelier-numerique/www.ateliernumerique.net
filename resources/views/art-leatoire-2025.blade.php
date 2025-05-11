@@ -122,9 +122,7 @@ $p85 = "Algorithmes gloutons.";
 					<div class="card h-100">
 						<img src="{{ asset('projet-artleatoire-2025/'.basename($gif)) }}" class="card-img-top" alt="...">
 						<div class="card-body p-1 ps-2">
-							@if (request()->query('n', 0) == 1)
-								<p class="card-text font-monospace small text-muted">{{ basename($gif, ".gif") }}</p>
-							@endif
+							<p class="card-text font-monospace small text-muted">{{ basename($gif, ".gif") }}</p>
 						</div>
 					</div>
 				</div> 
